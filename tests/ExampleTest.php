@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Barbosa\Csv\Tests;
 
 use PHPUnit\Framework\TestCase;
 
