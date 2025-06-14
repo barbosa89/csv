@@ -3,8 +3,8 @@
 namespace Barbosa\Csv\Tests;
 
 use Barbosa\Csv\Reader;
-use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\Test;
+use PHPUnit\Framework\TestCase;
 
 class CsvReaderTest extends TestCase
 {
