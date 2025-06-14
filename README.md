@@ -25,8 +25,13 @@ composer require barbosa89/csv
 ## Usage
 
 ```php
-$skeleton = new Barbosa\Csv();
-echo $skeleton->echoPhrase('Hello, Barbosa!');
+use Barbosa\Csv\Reader;
+
+$reader = new Reader('/path/to/file.csv');
+
+foreach($reader->read() => $row) {
+    // code
+}
 ```
 
 ## Testing
